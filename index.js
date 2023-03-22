@@ -21,13 +21,15 @@ prvi.addEventListener("click", function(){
     
   copyText.select();
   
-  document.execCommand("copy");  
+  document.execCommand("copy"); 
+  console.log("password copied") 
 })
 
 drugi.addEventListener("click", function(){
       let copyText2 = document.getElementById("drugi-el");
     copyText2.select()
     document.execCommand("copy")
+    console.log("password copied")
 })
 
 
